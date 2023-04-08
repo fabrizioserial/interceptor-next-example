@@ -6,12 +6,12 @@ import {artworks} from "~/utils/consts";
 
 const rufina = Rufina({weight: ['400','700'], subsets: ['latin'] })
 
-const getArtworks = async () => {
+const getArtworks = () => {
     return artworks
 }
 
-export default async function Artworks() {
-    const artworks = await getArtworks()
+export default function Artworks() {
+    const artworks = getArtworks()
     return (
         <main className="flex min-h-screen flex-col items-start py-24">
             <div className={'px-[72px] flex flex-row justify-between w-full items-center'}>

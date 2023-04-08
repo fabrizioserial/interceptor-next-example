@@ -11,12 +11,12 @@ interface PageProps {
     }
 }
 
-const getArtworkById = async (id: string) => {
+const getArtworkById = (id: string) => {
     return artworks.find(artwork => artwork.id === id)
 }
 
 export default async function Page({params: {id}}:PageProps){
-    const artwork = await getArtworkById(id);
+    const artwork =  getArtworkById(id);
 
     return(
         <>
