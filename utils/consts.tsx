@@ -1,0 +1,55 @@
+export type ArtworkType = {
+    id: string,
+    title: string,
+    description: string,
+    image: string,
+    author: string,
+    type: string,
+    sizes: string,
+}
+export const artworks: ArtworkType[] = [
+    {
+        id: '1',
+        title: 'The Great Wave Off the Coast of Kanagawa',
+        description: '「冨嶽三十六景」は、富士山をテーマとした46枚揃のシリーズ。藍は当時流行の色で、この図は、主版も藍で摺られシャープな印象がもたらされている。大波が触手を伸ばしてせり上がる富士へと続く奥行き深い空間に、自然が人間のドラマのように描かれている',
+        image: 'https://cdn.discordapp.com/attachments/757033882649362503/1094012134452629544/730d2d5d_-900.jpeg',
+        author: 'Katsushika Hokusai',
+        type: 'Painting',
+        sizes: '36.1 in × 24.1 in',
+    }, {
+        id: '2',
+        title: 'The Apotheosis of Hercules',
+        description: 'François Lemoyne wanted to rival the decorative work of Charles Le Brun in the Hall of Mirrors. He used a rejected project of Le Brun when the central subject of the Hall of Mirrors was to be the Apotheosis of Hercules. Several months after completing the work, the painter committed suicide by stabbing himself with a knife.',
+        image: 'https://cdn.discordapp.com/attachments/757033882649362503/1094012134695903394/renaissance-art-ceiling-picture-versailles-wall-mural_1.jpg',
+        author: 'François Lemoyne',
+        type: 'Painting',
+        sizes: '36.1 in × 24.1 in',
+    },
+    {
+        id: '3',
+        title: "Watson and the Shark",
+        description: 'Brook Watson [1735-1807], London and East Sheen, Surrey; bequeathed to Christ\'s Hospital, London;[1] purchased 1963 by NGA. [1] Watson\'s will, dated 12 August 1803, states: "I give and bequeath my Picture painted by Mr. Copley which represents the accident by which I lost my Leg in the Harbour of the Havannah in the Year One Thousand Seven Hundred and Forty Nine to the Governors of Christs Hospital to be delivered to them immediately after the Decease of my Wife Helen Watson or before if she shall think proper so to do hoping the said worthy Governors will receive the same as a testimony of the high estimation in which I hold that most Excellent Charity and that they will allow it to be hung up in the Hall of their Hospital as holding out a most usefull Lesson to Youth." (Public Record Office, London; copy, NGA curatorial file). The school\'s committee of almoners voted 28 September 1819 to accept the painting and place it in the great hall (minutes of a meeting of the Board of Almoners, Christ\'s Hospital, 28 September 1819; extract, NGA curatorial file). The hospital was founded in London in 1553 and was moved to Horsham, Essex, in 1902; _Encyclopaedia Britannica_ (11th ed., New York, 1910), 6: 295-296.',
+        image: 'https://cdn.discordapp.com/attachments/757033882649362503/1094021094501003434/image.png',
+        author: "John Singleton Copley",
+        type: 'Oil on canvas',
+        sizes: '39 in × 21 in',
+    },
+    {
+        id: '4',
+        title: "The Death of Socrates",
+        description: 'The Death of Socrates is a painting by the Italian artist Jacques-Louis David, completed in 1787. It depicts the moment when Socrates, condemned to death by the Greek democracy of Athens, takes the hemlock poison offered to him by his student, Antisthenes. The painting is a key example of Neoclassicism, and is considered one of the most influential works of art in the history of Western culture.',
+        image: 'https://cdn.discordapp.com/attachments/757033882649362503/1094023042377711666/image.png',
+        author: 'Jacques-Louis David',
+        type: 'Painting',
+        sizes: '36.1 in × 24.1 in',
+    },
+    {
+        id: '5',
+        title: "Judith and Holofernes",
+        description: 'Judith and Holofernes is a painting by the Italian artist Artemisia Gentileschi, completed in 1614. It depicts the moment when Judith, a Jewish widow, beheads Holofernes, the Assyrian general who has come to destroy her city. The painting is a key example of Baroque art, and is considered one of the most influential works of art in the history of Western culture.',
+        image: 'https://cdn.discordapp.com/attachments/757033882649362503/1094022743634219081/image.png',
+        author: 'Artemisia Gentileschi',
+        type: 'Painting',
+        sizes: '36.1 in × 24.1 in',
+    }
+]
