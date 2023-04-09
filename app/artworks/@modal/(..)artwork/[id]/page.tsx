@@ -20,7 +20,6 @@ export default async function Page({params: {id}}:PageProps){
 
     return(
         <>
-            <Artworks/>
             <div aria-labelledby="modal-title" aria-modal="true" className="relative z-10" role="dialog">
                 <div className="fixed inset-0 bg-gray-900 bg-opacity-75 transition-opacity" />
                 <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -51,7 +50,7 @@ export default async function Page({params: {id}}:PageProps){
                                     <p className={" mt-[8px] text-sm"}>{artwork!.description}</p>
                                 </div>
                                 <div className={'w-full flex flex-row justify-end pt-2'}>
-                                    <Link href="/artworks">
+                                    <Link href="/artworks/closeModal">
                                         <button
                                             className="inline-flex w-full justify-center  px-3 py-2 text-sm
                                                        font-semibold text-gray-900 bg-gray-200
